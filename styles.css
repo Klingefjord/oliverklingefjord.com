@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     font-family: 'IBM Plex Mono', "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333;
-    font-size: 0.9em;
+    font-size: calc((1vh+1vw)/2);
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -84,5 +84,4 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    font-size: 0.8em;
 }
