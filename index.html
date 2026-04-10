@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
     <script
@@ -11,61 +11,84 @@
       function gtag() {
         dataLayer.push(arguments)
       }
-      gtag("js", new Date())
+      gtag('js', new Date())
 
-      gtag("config", "G-FH2Z4L5W3F")
+      gtag('config', 'G-FH2Z4L5W3F')
     </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Oliver Klingefjord</title>
+    <meta
+      name="description"
+      content="Oliver Klingefjord — research, institutional design, and AI alignment in service of human flourishing."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="icon" type="favicon" href="favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
   <body>
-    <div class="navbar">
-      <div class="nav-left">
-        <a href="index.html">Oliver Klingefjord</a>
-      </div>
-    </div>
-    <main>
-      <div class="container" id="home">
-        <p>I'm an engineer, researcher and aspiring philosopher.</p>
-        <p>
-          My work centers around the question of 'what to align towards', both
-          in AI but also more broadly in society (what's worth amplifying /
-          what's "good"). I believe a lot of modern ills come from our
-          misalignment between our deeper wants (eg. our values), and our
-          shallow expression of them (stated or revealed preferences),
-          underpinning the modern societal stack of democracies, markets and AI.
-          For more, see
-          <a href="https://meaningalignment.org/values-and-alignment-paper"
-            >our paper</a
-          >.
-        </p>
-        <p>
-          In 2023 I co-founded the
-          <a href="https://meaningalignment.org">Meaning Alignment Institute</a
-          >, with help from OpenAI, where I research these questions and build
-          new mechanisms informed by that research. Before, I worked on
-          AI-assisted deliberation at
-          <a href="https://ai.objectives.institute">AOI</a>, and co-founded a
-          startup called <a href="https://potential.app">Potential</a>.
-        </p>
-      </div>
-    </main>
-    <div class="links">
-      <a href="https://twitter.com/Klingefjord">Twitter</a>
-      <a href="https://github.com/Klingefjord">GitHub</a>
-      <a href="mailto:oliverklingefjord@gmail.com">Email</a>
-      <a href="https://meaningalignment.substack.com/">Substack</a>
-      <a href="https://scholar.google.com/citations?hl=en&user=YkZiOIkAAAAJ"
-        >Google Scholar</a
-      >
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="eyebrow">Oliver Klingefjord</div>
+      </header>
+
+      <main class="hero">
+        <p class="kicker">research · institutions · alignment</p>
+        <h1>
+          Designing better ways
+          <span>to know what is worth wanting.</span>
+        </h1>
+
+        <div class="lead">
+          <p>
+            I work on AI alignment, institutional design, and value elicitation
+            — especially the question of what our systems should be aligned
+            <em>towards</em>.
+          </p>
+          <p>
+            I’m a co-founder of the
+            <a href="https://meaningalignment.org" target="_blank" rel="noreferrer">
+              Meaning Alignment Institute
+            </a>
+            where we study how markets, democracies, and AI systems can better
+            reflect human values rather than thin proxies for them.
+          </p>
+          <p>
+            Previously I worked on AI-assisted deliberation at
+            <a href="https://ai.objectives.institute" target="_blank" rel="noreferrer">AOI</a>
+            and co-founded
+            <a href="https://potential.app" target="_blank" rel="noreferrer">Potential</a>.
+            Lately I’ve been focused on mechanisms for value discovery,
+            affective polarization, and the social conditions for human
+            flourishing.
+          </p>
+        </div>
+
+        <section class="focus-block" aria-label="Current interests">
+          <div class="focus-label">current threads</div>
+          <ul>
+            <li>Moral Graph Elicitation and value discovery</li>
+            <li>Full-stack alignment and institutional design</li>
+            <li>Mechanism design for meaningful goods</li>
+            <li>Political philosophy, development, and practical wisdom</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <nav class="links" aria-label="Links">
+          <a href="https://twitter.com/Klingefjord" target="_blank" rel="noreferrer">Twitter</a>
+          <a href="https://github.com/Klingefjord" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://meaningalignment.substack.com/" target="_blank" rel="noreferrer">Substack</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=YkZiOIkAAAAJ" target="_blank" rel="noreferrer">Scholar</a>
+          <a href="mailto:oliverklingefjord@gmail.com">Email</a>
+        </nav>
+      </footer>
     </div>
   </body>
 </html>
